@@ -1,0 +1,9 @@
+# Python 3.10-3.12. CadQuery is easiest from conda (environment.yml); pip wheels also exist for these versions.
+cadquery>=2.4
+pandas
+jupyter
+# model providers (only the ones you use)
+anthropic
+openai
+# notebook section 7 (optional training, GPU)
+# torch transformers peft datasets accelerate

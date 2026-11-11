@@ -1,0 +1,17 @@
+{
+  "id": "T002",
+  "title": "Motor-frame downsizing retrofit - NEMA 17 inference",
+  "source": "Task#002_Motor-frame downsizing retrofit - NEMA 17 inference",
+  "timeout_s": 600,
+  "renders": [
+    "render_front.png",
+    "render_iso.png",
+    "render_side.png"
+  ],
+  "attempts": [
+    "a4",
+    "a5",
+    "a6",
+    "a7"
+  ]
+}

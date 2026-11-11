@@ -1,0 +1,17 @@
+{
+  "id": "T003",
+  "title": "Minarelli P6 gearbox top-end re-ratio",
+  "source": "Task#003_Minarelli P6 gearbox top-end re-ratio",
+  "timeout_s": 600,
+  "renders": [
+    "render_front.png",
+    "render_iso.png",
+    "render_side.png",
+    "render_top.png"
+  ],
+  "attempts": [
+    "a4",
+    "a6",
+    "a7"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "T001",
+  "title": "Hydraulic rod-gland rod-diameter retrofit",
+  "source": "Task#001_Hydraulic rod-gland rod-diameter retrofit",
+  "timeout_s": 600,
+  "renders": [
+    "render_front.png",
+    "render_iso.png",
+    "render_side.png",
+    "render_top.png"
+  ],
+  "attempts": [
+    "a4",
+    "a5",
+    "a6",
+    "a7"
+  ]
+}

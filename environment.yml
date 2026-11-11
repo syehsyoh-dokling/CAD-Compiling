@@ -1,0 +1,12 @@
+name: cad-eval
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - cadquery=2.7
+  - pandas
+  - jupyter
+  - pip
+  - pip:
+      - anthropic
+      - openai

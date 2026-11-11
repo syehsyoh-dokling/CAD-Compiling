@@ -1,0 +1,38 @@
+{
+  "claude-opus": {
+    "provider": "anthropic",
+    "model": "claude-opus-5-5",
+    "max_tokens": 32000,
+    "vision": true,
+    "api_key_env": "ANTHROPIC_API_KEY"
+  },
+  "claude-sonnet": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-5-5",
+    "max_tokens": 32000,
+    "vision": true,
+    "api_key_env": "ANTHROPIC_API_KEY"
+  },
+  "openai": {
+    "provider": "openai_compat",
+    "model": "SET-MODEL-ID",
+    "api_key_env": "OPENAI_API_KEY",
+    "vision": true,
+    "note": "base_url omitted = api.openai.com"
+  },
+  "nvidia-nim": {
+    "provider": "openai_compat",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "model": "SET-MODEL-ID",
+    "api_key_env": "NVIDIA_API_KEY",
+    "vision": false
+  },
+  "local-vllm": {
+    "provider": "openai_compat",
+    "base_url": "http://localhost:8000/v1",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "api_key_env": null,
+    "vision": false,
+    "note": "any OpenAI-compatible server: vLLM, Ollama (http://localhost:11434/v1), LM Studio"
+  }
+}
