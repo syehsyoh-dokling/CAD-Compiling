@@ -119,7 +119,7 @@ Model code runs on the host. For untrusted models, run the kit inside a containe
 |---|---|---|---|---|
 | Golden answer (must pass; `gt_solution.py` re-run must reproduce it) | 1.0 ✓ repro | 1.0 ✓ repro | 1.0 ✓ repro | 1.0 ✓ repro |
 | Unchanged input (must fail) | 0.333 ✗ | 0.625 ✗ | 0.286 ✗ | 0.25 ✗ |
-| Replay of recorded attempts | a4 0.889 ✗ (wiper features), a5/a6/a7 1.0 ✓ | a4–a7 1.0 ✓ | REPLAY_T003 | none recorded |
+| Replay of recorded attempts | a4 0.889 ✗ (wiper features), a5/a6/a7 1.0 ✓ | a4–a7 1.0 ✓ | a4 0.429 ✗, a6 0.571 ✗, a7 0.429 ✗ (all miss the 5th-gear re-cut to 22T and the monotonic ladder) | none recorded |
 | Verifier calibration (17 wrong variants) | | | | 17/17 caught |
 | Agent loop with a scripted model (`tests/test_agent_loop.py`) | | | | passes, 3 turns |
 
